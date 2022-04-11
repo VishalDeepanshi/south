@@ -23,6 +23,10 @@
         margin: 0 auto;
         margin-bottom: 20px;
     }
+    header .navbar .navbar-nav .nav-item .nav-link:hover::after {
+        width: 100% !important;
+        left: 0;
+    }
     .hero_top {
         height: initial;
         padding-top: 13%;
@@ -37,7 +41,7 @@
         padding: 20px;
     }
     .mail_foot li {
-        justify-content: center;
+        justify-content: c;
     }
     .about_hero {
         height: initial;
