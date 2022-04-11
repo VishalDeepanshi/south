@@ -609,7 +609,7 @@ footer .quick_box ul li a:hover {
 }
 
 footer .copy_right {
-    background-color: #6958FF;
+    background-color: #5723FD;
     color: #fff;
     padding: 15px;
     text-align: center;
@@ -619,6 +619,9 @@ footer .copy_right {
 footer .copy_right p {
     margin-bottom: 0px;
     font-size: 14px;
+    border-top: 1px solid;
+    padding-top: 20px;
+    color: #fff !important;
 }
 
 footer .social_icon a {
