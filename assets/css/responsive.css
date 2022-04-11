@@ -103,6 +103,9 @@
     body {
         font-size: 14px;
     }
+    .mail_foot li {
+        justify-content: center !important;
+    }
     .hero_top .hero_box .grey_one h5,
     .about_us .intro_box .grey_one h5,
     .produc_brief .produc_box h5,
