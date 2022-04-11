@@ -1,0 +1,198 @@
+@media only screen and (max-width:1920px) {
+    .container {
+        /* max-width: 1400px; */
+        height: 100%;
+    }
+    .row {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:1480px) {
+    .hero_top .hero_img .open_img {
+        position: initial;
+        right: inherit;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    header .navbar .navbar-nav .nav-item .nav-link {
+        width: 100%;
+        max-width: 180px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .hero_top {
+        height: initial;
+        padding-top: 13%;
+    }
+    .produc_brief .produc_tabs ul li .nav-link {
+        margin-bottom: 20px !important;
+    }
+    footer .quick_box ul {
+        padding-left: 0px;
+    }
+    .contact_us .proc .dowmload_op {
+        padding: 20px;
+    }
+    .mail_foot li {
+        justify-content: center;
+    }
+    .about_hero {
+        height: initial;
+        padding-top: 12%;
+        padding-bottom: 50px;
+    }
+    .about_hero .img_about img {
+        position: initial;
+    }
+    .contact_form .open_box .name {
+        display: block;
+    }
+    .contact_form .open_box .form_group,
+    .contact_form .open_box .login_btn {
+        margin-right: 0px;
+    }
+    .contact_form .open_box .form_group .open input,
+    .contact_form .open_box .form_group .open input {
+        padding-left: 12% !important;
+    }
+    .forgot_one .right_box {
+        padding-top: 7%;
+    }
+    .teams {
+        padding-top: 24px;
+    }
+    .accor .gen_side .nav {
+        max-width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .accor .gen_side .nav .nav-link {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .hero_top {
+        padding-top: 19%;
+    }
+    .hero_box .grey_one .form-group input {
+        margin-bottom: 20px;
+    }
+    .about_hero {
+        padding-top: 22%;
+    }
+    .video_op .carousel .carousel-control-prev-icon,
+    .video_op .carousel .carousel-control-next-icon {
+        display: none;
+    }
+    .video_op .carousel-indicators {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    body {
+        font-size: 14px;
+    }
+    .hero_top .hero_box .grey_one h5,
+    .about_us .intro_box .grey_one h5,
+    .produc_brief .produc_box h5,
+    .pricing .price_box .greyop h5,
+    .resources .res_op .white_box h5,
+    .contact_us .test_box h5,
+    .login_box .right_box .grey_box .wel_come h5,
+    .video_op .title_video h5 {
+        font-size: 30px;
+    }
+    .hero_top .hero_box .grey_one p {
+        font-size: 16px;
+    }
+    .resources .grey_box .res_img {
+        height: 410px;
+    }
+    .about_us .about_img .side_img {
+        height: initial;
+    }
+    footer .quick_box {
+        text-align: center;
+    }
+    footer .social_icon {
+        justify-content: center;
+    }
+    .about_hero {
+        padding-top: 28%;
+    }
+    .contact_us .proc .dowmload_op .play a {
+        display: block;
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    .contact_us .proc .dowmload_op .play a img {
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+    }
+    .accor .general_box .accordion .accordion-item .accordion-button {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:475px) {
+    .hero_top {
+        padding-top: 28%;
+    }
+    .login_box .right_box .grey_box form .form_group .open input,
+    .contact_form .open_box .form_group textarea,
+    .contact_form .open_box .form_group .open input,
+    .contact_form .open_box .form_group .open input {
+        padding-left: 17% !important;
+    }
+    .teams .flex_box .first_box {
+        display: block;
+    }
+    .contact_det {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .resources .grey_box .res_img {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .pricing .tab-content .first_box .chids {
+        display: block;
+        text-align: left;
+    }
+    .login_box .right_box .grey_box form .form_group .open input,
+    .contact_form .open_box .form_group textarea,
+    .contact_form .open_box .form_group .open input,
+    .contact_form .open_box .form_group .open input {
+        padding-left: 19%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .login_box .right_box {
+        padding-top: 34%;
+    }
+    .forgot_one .right_box {
+        padding-top: 7%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .login_box .right_box {
+        padding-top: 87%;
+    }
+    .forgot_one .right_box {
+        padding-top: 14%;
+    }
+}
