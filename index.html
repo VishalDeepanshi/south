@@ -67,12 +67,11 @@
                 <div class="col-lg-6">
                     <div class="left_box">
                         <div class="grey_box">
-                            <h5><span>South<b>Shore</b></span> On the other hand, we denounce with righteous.</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                                a type</p>
+                            <h5><span>South<b>Shore -</b></span> a company focused on innovative solutions for you.</h5>
+
                             <div class="form-hero mb-4">
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
-                                <a class="signin_btn">Contact us</a>
+
+                                <a class="signin_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact us</a>
 
 
                             </div>
@@ -152,8 +151,8 @@
                 <div class="col-12">
                     <div class="price_box" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
                         <div class="greyop">
-                            <h5 class="line_open mb-3">Publishing</h5>
-                            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+                            <h5 class="line_open mb-5">Publishing</h5>
+
                         </div>
                     </div>
                     <div class="radio_tabs" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -179,7 +178,7 @@
                                                 <p>Southshore owns the publishing imprint ‘Inca” and this is the vehicle we use to publish authors who works with us.
 
                                                 </p>
-                                                <p>If you are an author and are looking to publish, we would love to hear from you. Please <a href="">click here</a> to reach us. </p>
+                                                <p>If you are an author and are looking to publish, we would love to hear from you. Please <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">click here</a> to reach us. </p>
 
 
                                             </div>
@@ -439,7 +438,7 @@
             <div class="row ">
                 <div class="col-lg-3 col-md-6 ">
                     <div class="quick_box">
-                        <img src="./assets/images/foot_log.svg " alt="foot ">
+                        <img class="mb-4" src="./assets/images/foot_log.svg " alt="foot ">
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority injected humour.</p>
 
                         <div class="social_icon ">
@@ -496,6 +495,53 @@
             </div>
         </div>
     </footer>
+
+    <!--Modals-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="contact_form">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="girl_img">
+                                        <img src="./assets/images/contact.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <form action="">
+                                        <h5 class="line_open mb-3">Contact Us<span></span></h5>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Full Name">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                            <textarea class="form-control" placeholder="Enter Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                        <a class="signin_btn d-block">Send</a>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <script src="./assets/js/jquery.js "></script>
     <script src="./assets/js/bootstrap.min.js "></script>
     <script src="https://code.iconify.design/2/2.1.0/iconify.min.js "></script>
@@ -507,6 +553,7 @@
     <script>
         AOS.init();
     </script>
+
 </body>
 
 </html>

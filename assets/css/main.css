@@ -154,20 +154,16 @@ header .navbar .navbar-nav .nav-item .log_in {
     position: relative;
 }
 
-.hero_top .form-hero {
-    position: relative;
-}
-
-.hero_top .form-hero input {
-    border-radius: 50px;
-    padding: 20px 40px;
-}
+.hero_top .form-hero {}
 
 .hero_top .form-hero .signin_btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 15px;
+    background-color: #fff !important;
+    cursor: pointer;
+    color: #5723FD !important;
+}
+
+.hero_top .form-hero .signin_btn:hover {
+    background-color: #00BB98 !important;
 }
 
 .hero_top .left_box {
@@ -181,6 +177,7 @@ header .navbar .navbar-nav .nav-item .log_in {
     font-size: 40px;
     color: #fff;
     font-family: openfont;
+    margin-bottom: 20px;
 }
 
 .hero_top .left_box h5 span {
@@ -658,4 +655,41 @@ footer .social_icon .link:hover {
     background-color: #00BB98;
     color: #fff;
     border-color: #00BB98;
+}
+
+.girl_img {
+    background-color: #5723FD;
+    border-radius: 12px;
+}
+
+.contact_form img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.modal-dialog {
+    max-width: 940px !important;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_form label {
+    color: #555555;
+}
+
+.contact_form form input {
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.btn-close {
+    background-image: url(../images/close.svg);
+}
+
+.modal-header {
+    border-bottom: none;
 }
