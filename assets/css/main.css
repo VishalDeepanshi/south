@@ -159,6 +159,7 @@ header .navbar .navbar-nav .nav-item .log_in {
 .hero_top .form-hero .signin_btn {
     background-color: #fff !important;
     cursor: pointer;
+    padding: 20px 50px;
     color: #5723FD !important;
 }
 
