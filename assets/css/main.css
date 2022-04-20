@@ -154,7 +154,7 @@ header .navbar .navbar-nav .nav-item .log_in {
     position: relative;
 }
 
-.hero_top .form-hero {}
+
 
 .hero_top .form-hero .signin_btn {
     background-color: #fff !important;
@@ -179,6 +179,9 @@ header .navbar .navbar-nav .nav-item .log_in {
     color: #fff;
     font-family: openfont;
     margin-bottom: 20px;
+    width: 100%;
+    max-width: 450px;
+    padding-bottom: 10px;
 }
 
 .hero_top .left_box h5 span {
@@ -693,4 +696,11 @@ footer .social_icon .link:hover {
 
 .modal-header {
     border-bottom: none;
+}
+
+.text-align
+{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
 }
